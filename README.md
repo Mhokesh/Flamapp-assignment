@@ -6,7 +6,11 @@ This repo estimates three hidden parameters — **θ, M, X** — of a parametric
 
 **Explanation video:**
 
-<video controls width="720" src="explanation.mp4">Your browser does not support the video tag.</video>
+[![Explanation preview](exp_img.png)](https://drive.google.com/file/d/11wkDvWEU4s_wD3OHW2yjWvGlM6f08fsJ/view?usp=sharing)
+
+Click the image to open the video on Google Drive.
+
+**Interactive demonstration:** https://animation-of-the-problem.netlify.app/ — this site was built purely for demonstration purposes, to visually show how the curve behaves as each term (rotation, wave, envelope, shift) is introduced, and to illustrate how Differential Evolution searches for the parameters. You can use it to see the curve's behaviour animated step by step.
 
 ---
 
@@ -137,7 +141,6 @@ Mutation, crossover and selection continue for multiple generations until conver
 
 ![Original vs Predicted Curve](curve_fit_result.png)
 
-Full-size version: curve_fit_result.png
 
 ---
 
@@ -151,16 +154,6 @@ Full-size version: curve_fit_result.png
 Domain: `6 ≤ t ≤ 60`
 
 ---
-
-## Files
-
-```
-.
-├── xy_data.csv           # given dataset
-├── curve.py          # loads data, runs DE, prints θ/M/X and L1, saves plot
-├── curve_fit_result.png  # comparison graph
-└── README.md
-```
 
 ## Run it
 
