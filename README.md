@@ -6,9 +6,7 @@ This repo estimates three hidden parameters — **θ, M, X** — of a parametric
 
 **Explanation video:**
 
-[![Explanation preview](exp_img.png)](https://drive.google.com/file/d/11wkDvWEU4s_wD3OHW2yjWvGlM6f08fsJ/view?usp=sharing)
-
-Click the image to open the video on Google Drive.
+https://github.com/user-attachments/assets/d9477dc5-4e5a-4b66-aea7-05e11ec1f5c3
 
 **Interactive demonstration:** https://animation-of-the-problem.netlify.app/ — this site was built purely for demonstration purposes, to visually show how the curve behaves as each term (rotation, wave, envelope, shift) is introduced, and to illustrate how Differential Evolution searches for the parameters. You can use it to see the curve's behaviour animated step by step.
 
