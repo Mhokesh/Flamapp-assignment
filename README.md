@@ -159,7 +159,7 @@ Domain: `6 ≤ t ≤ 60`
 
 ```
 pip install numpy pandas scipy matplotlib
-python fit_curve.py
+python curve.py
 ```
 
 ---
