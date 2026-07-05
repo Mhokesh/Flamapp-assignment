@@ -4,7 +4,9 @@
 
 This repo estimates three hidden parameters — **θ, M, X** — of a parametric curve, given only 1500 sampled `(x, y)` points (`xy_data.csv`).
 
-**Explanation video:** https://drive.google.com/file/d/11wkDvWEU4s_wD3OHW2yjWvGlM6f08fsJ/view?usp=sharing
+**Explanation video:**
+
+<video controls width="720" src="explanation.mp4">Your browser does not support the video tag.</video>
 
 ---
 
@@ -135,7 +137,7 @@ Mutation, crossover and selection continue for multiple generations until conver
 
 ![Original vs Predicted Curve](curve_fit_result.png)
 
-Full-size version: https://drive.google.com/file/d/1R7mRDXQ1-iF11P3orhNUzamVMYi4DIJm/view?usp=sharing
+Full-size version: curve_fit_result.png
 
 ---
 
